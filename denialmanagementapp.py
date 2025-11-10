@@ -58,7 +58,7 @@ if "data" not in st.session_state:
     st.session_state.data = None
 
 # ---------------- HOME PAGE ----------------
-if menu == "🏠 Home":
+if menu == "Home":
     
 
     # ---- WELCOME SECTION ----

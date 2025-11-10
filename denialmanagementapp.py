@@ -211,7 +211,7 @@ if menu == "Home":
         download_button(filtered_df, filename="filtered_claims.csv")
 
 # ---------------- TOP DENIAL REASONS ----------------
-elif menu == "📊 Top Denial Reasons":
+elif menu == " Top Denial Reasons":
     st.title("📊 Top Denial Reasons")
 
     if st.session_state.data is None:

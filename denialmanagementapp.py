@@ -52,13 +52,13 @@ def download_button(df, filename="filtered_results.csv"):
 # ---------------- SIDEBAR ----------------
 st.sidebar.image("tag3.gif", width=200, caption="Welcome!")
 
-menu = st.sidebar.radio("Go to", [" 🏠Home", "📊 Top Denial Reasons"])
+menu = st.sidebar.radio("Go to", ["🏠 Home", "📊 Top Denial Reasons"])
 
 if "data" not in st.session_state:
     st.session_state.data = None
 
 # ---------------- HOME PAGE ----------------
-if menu == "🏠Home":
+if menu == "🏠 Home":
     
 
     # ---- WELCOME SECTION ----
